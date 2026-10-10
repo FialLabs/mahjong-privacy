@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy and terms — Tuilerie Mahjong</title>
+<meta name="description" content="Privacy policy and terms of use of Tuilerie Mahjong, a game by Fial Labs.">
+<style>
+  /* La table de Tuilerie Mahjong, et une tuile posée dessus. Contrastes mesurés, pas estimés. */
+  :root {
+    --tapis: #2f4239;
+    --tapis-sombre: #22302a;
+    --tuile: #f3efe4;
+    --encre: #2b261c;        /* 13,1:1 sur la tuile */
+    --encre-sourde: #5a5243; /* 6,7:1 sur la tuile */
+    --enseigne: #1f5c43;     /* 6,8:1 sur la tuile */
+    --trait: #ddd6c4;
+    --clair: #e9e4d6;        /* 10,8:1 sur le tapis */
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    background: radial-gradient(ellipse at 50% 0%, var(--tapis) 0%, var(--tapis-sombre) 100%);
+    color: var(--encre);
+    min-height: 100vh;
+    padding: 40px 20px 60px;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    background: var(--tuile);
+    border-radius: 16px;
+    padding: 40px clamp(20px, 5vw, 48px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  }
+  h1 { color: var(--enseigne); font-size: 26px; line-height: 1.25; margin: 0 0 6px; }
+  .updated { color: var(--encre-sourde); font-size: 13px; margin: 0 0 12px; }
+  .langue { font-size: 14px; margin: 0 0 24px; color: var(--encre-sourde); }
+  nav { margin: 0 0 32px; font-size: 15px; }
+  nav a { margin-right: 18px; }
+  h2 { font-size: 20px; margin: 40px 0 6px; padding-top: 12px; border-top: 1px solid var(--trait); }
+  h3 { font-size: 17px; margin: 26px 0 8px; }
+  p, li { line-height: 1.6; font-size: 15px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--enseigne); }
+  code { font-size: 14px; }
+  .phrase { background: #eaf0ea; border-left: 3px solid var(--enseigne); padding: 14px 18px; border-radius: 8px; margin: 22px 0; }
+  .phrase p { margin: 0; }
+  #editeur-legal p { color: var(--encre-sourde); font-size: 14px; }
+  footer { text-align: center; color: var(--clair); font-size: 13px; margin-top: 28px; }
+  footer a { color: var(--clair); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Tuilerie Mahjong — privacy and terms</h1>
+  <p class="updated">Last updated: 10 October 2026</p>
+  <p class="langue"><a href="fr.html" lang="fr" hreflang="fr">Version française</a> — the two versions say the same thing; the French one was written first.</p>
+
+  <nav>
+    <a href="#privacy">Privacy policy</a>
+    <a href="#terms">Terms of use</a>
+    <a href="#delete-your-data">Delete your data</a>
+  </nav>
+
+  <h2 id="privacy">Privacy policy</h2>
+
+  <div class="phrase">
+    <p><strong>Tuilerie Mahjong asks nothing of you, and we keep nothing about you.</strong>
+    Everything the game remembers stays on your phone. One thing talks to the network: Google's ad service,
+    which starts with the game and sends Google what an ad service measures — four types of data, named below.
+    No ad is ever shown unless you ask for one.</p>
+  </div>
+
+  <h3>Who publishes Tuilerie Mahjong</h3>
+  <p>Tuilerie Mahjong is developed by <strong>Fial Labs</strong>. For any question about this policy, or to exercise your rights: <a href="mailto:fiallabs@gmail.com">fiallabs@gmail.com</a></p>
+
+  <h3>What Tuilerie Mahjong collects</h3>
+  <p><strong>Fial Labs collects nothing.</strong> The game does not ask for an account, a name, an email address or a phone number. It does not request your location, contacts, photos, microphone or camera, and we have installed no analytics tool, no crash reporter and no tracking code of our own.</p>
+  <p><strong>Google's ad service, which the game embeds, does collect data.</strong> It starts when the game launches, whether or not you ever watch an ad, and it is the only third-party library in the app. Because of it, the Google Play listing shows four types of data as collected and shared. Here they are, under the names Play uses:</p>
+  <ul>
+    <li><strong>Device or other identifiers</strong> — your device's advertising identifier and its App Set ID;</li>
+    <li><strong>Approximate location</strong> — derived from your IP address, not from GPS. The game never asks for Android's location permission and never reads your position; Google infers a region from the network address that every connection carries;</li>
+    <li><strong>App interactions</strong> — the launch of the game, your taps in it, and the playback of ad videos;</li>
+    <li><strong>Diagnostics</strong> — launch time, freezes, energy use.</li>
+  </ul>
+  <p>All four go to Google and to nobody else, for advertising, analytics, and fraud prevention and security. <strong>They travel encrypted in transit (TLS).</strong> They are not optional inside the game: the ad service starts with it, and the only way to limit them is through your device's ad settings, described below. Google keeps them under its own policy; <strong>we never see them and receive no copy.</strong></p>
+
+  <h3>What Tuilerie Mahjong stores on your device</h3>
+  <p>Everything is stored locally, in the app's private storage, and is never transmitted anywhere:</p>
+  <ul>
+    <li><strong>your settings</strong> — whether free tiles are highlighted, and the layout offered for a new board. The game also writes, at their starting value, four settings provided for but not yet offered on screen: language, hand, sound and vibration;</li>
+    <li><strong>your stock of hints</strong>;</li>
+    <li><strong>your statistics</strong> — games won, solved by the solver or abandoned, best time per layout, and the tile set you chose (tile sets unlock as you win games), plus two counters for the daily board, provided for but not yet used;</li>
+    <li><strong>the game in progress</strong> — its number (which carries its layout), the moves played and their order, the time elapsed, the hints used and the reshuffles.</li>
+  </ul>
+  <p>All of this disappears entirely if you uninstall the app or clear its data from Android's settings. <strong>We hold no copy of it</strong>, and we cannot restore it.</p>
+
+  <h3>There is no recovery code</h3>
+  <p>We would rather say this plainly, because it is a limitation and not a feature: <strong>Tuilerie Mahjong offers no way to carry your progress to another device.</strong> It lives on this phone and nowhere else. If you change device or clear the app's data, it is lost, and we can do nothing about it because we never had a copy.</p>
+
+  <h3>The solver</h3>
+  <p>The game checks that a game can be won, offers hints and can show a solution. <strong>All of that is computed on your phone.</strong> No position, no move and no game number is ever sent to a server: there is no server.</p>
+
+  <h3>Advertising</h3>
+  <p><strong>Tuilerie Mahjong never forces an ad on you.</strong> No ad appears between games, at launch, or at any moment you did not choose. There are no interstitials at all — an automated check refuses to build the app if an interstitial is called anywhere in it. The game offers <em>rewarded</em> ads in one place only, and always at your request: the <strong>“Recharger”</strong> button, which tops up your stock of hints (the label is the same in every language). That button only exists on screen if an ad is actually loaded and your stock is below its ceiling; otherwise it does not appear, rather than promising you something that is not available. The stock also refills by winning games, with no ad at all.</p>
+  <p>These ads are served by <strong>Google AdMob</strong>. We would rather say it precisely: <strong>the ad service starts when the game launches</strong>, collects your consent where it is required, then loads an ad in advance so that it is ready if you ask for it. That loading contacts Google as soon as the game starts, even if you never watch an ad. On that occasion, and each time an ad plays, AdMob collects the four types of data listed above — identifiers, approximate location from your IP address, interactions, diagnostics — along with technical details such as device type and Android version, to select and measure the ads shown. Everything is sent over an encrypted connection (TLS) and processed by Google under its own privacy policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>. We have no access to it and receive no copy of it.</p>
+
+  <h3>Your consent and your ad preferences</h3>
+  <p>If you live in the European Union, the United Kingdom or Switzerland, a consent form is shown to you at first launch, before any ad. It carries a <strong>“Do not consent”</strong> button as visible as the accept button. Where this choice is asked of you, the entry <strong>“Confidentialité des annonces”</strong> appears in the game's menu and lets you change it at any time.</p>
+  <p>On any Android device, you can also reset or delete your advertising identifier, or opt out of personalized advertising, from your device's settings (Settings › Google › Ads).</p>
+
+  <h3>Android permissions</h3>
+  <p>The game declares a single permission on its own behalf:</p>
+  <ul>
+    <li><code>INTERNET</code> — for the ad service: loading an ad in advance, and showing it when you ask. Nothing else in the game uses the network.</li>
+  </ul>
+  <p>The AdMob library brings its own, which we prefer to name rather than hide: <code>ACCESS_NETWORK_STATE</code> (whether the network is available), <code>AD_ID</code> and <code>ACCESS_ADSERVICES_*</code> (the advertising identifier and Android's advertising services), <code>WAKE_LOCK</code> and <code>FOREGROUND_SERVICE</code> (used by Google while an ad plays). None of these permissions is classed as “dangerous” by Android: they give access neither to your files, nor to your contacts, nor to your device's position. The approximate location Google records comes from your IP address, not from any of these permissions. One more is internal to the app, <code>com.fiallabs.mahjong.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code>, set by Android's androidx library so that its internal messages never leave the app.</p>
+
+  <h3>What can be bought in the game</h3>
+  <p><strong>Nothing. There is no real-money purchase, no payment, and no banking data.</strong> The stock of hints refills by winning games, or through an ad if you choose. Tile sets unlock as you win games, never through an ad or a payment.</p>
+
+  <h3>Children</h3>
+  <p>Tuilerie Mahjong is intended for a general audience and is not designed for children under 13. The app is not enrolled in Google Play's “Designed for Families” program. We collect no data ourselves, about children or anyone else. What Google's ad service collects, listed above, applies to every player alike; that is one more reason the game is reserved for people aged 13 or over.</p>
+
+  <h3>Your rights</h3>
+  <p>The European General Data Protection Regulation gives you rights of access, rectification, erasure and objection over personal data concerning you.</p>
+  <p><strong>We hold no personal data about you</strong>, so there is nothing to consult, correct or erase on our side. The game's information is on your device, under your sole control. For data processed by Google for advertising, requests go directly to Google, through <a href="https://myaccount.google.com" target="_blank" rel="noopener">myaccount.google.com</a>. The step-by-step procedure is in <a href="#delete-your-data">Delete your data</a>, below.</p>
+  <p>You may still write to us at <a href="mailto:fiallabs@gmail.com">fiallabs@gmail.com</a> with any question, and you have the right to lodge a complaint with your data protection authority (in France, the CNIL).</p>
+
+  <h3>Transfers outside the European Union</h3>
+  <p>Our own code transmits nothing. The data Google AdMob collects may be processed outside the European Union, under the conditions described in Google's privacy policy.</p>
+
+  <h3 id="delete-your-data">Delete your data</h3>
+  <p>This is the section Google Play links to under “delete data”. It names every piece of data that exists, where it lives, how to delete it, and what remains afterwards.</p>
+  <p><strong>1. What is on your device</strong> — your settings, your stock of hints, your statistics and the game in progress. To delete all of it: uninstall the app, or open Android's Settings › Apps › Tuilerie Mahjong › Storage and choose “Clear storage”. <strong>Everything is deleted at once, and nothing of it is kept anywhere:</strong> there is no server and no copy at Fial Labs. We cannot restore it.</p>
+  <p><strong>2. What Google's ad service holds</strong> — the four types listed above (identifiers, approximate location, interactions, diagnostics). We hold none of it and cannot delete it for you; Google can. On your device, Settings › Google › Ads lets you <strong>delete your advertising identifier</strong>, after which apps no longer receive it, or reset it, after which what was collected before is no longer tied to the new one. For the data Google keeps under its own policy, use Google's own tools at <a href="https://myaccount.google.com" target="_blank" rel="noopener">myaccount.google.com</a>, or write to Google as described in its <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">privacy policy</a>.</p>
+  <p><strong>3. What Fial Labs keeps</strong> — nothing. There is no account to close and no record to erase on our side, so there is nothing you need to ask us to delete. If you write to <a href="mailto:fiallabs@gmail.com">fiallabs@gmail.com</a> to ask, we will confirm it in writing.</p>
+
+  <h3>Changes</h3>
+  <p>This policy may change. The date of the last update appears at the top of this document, and any change will be published at this same address before it takes effect in the app.</p>
+
+  <h2 id="terms">Terms of use</h2>
+
+  <div id="editeur-legal"></div>
+
+  <h3>1. Purpose</h3>
+  <p>These terms govern the use of the Tuilerie Mahjong mobile application, published by Fial Labs. Installing or using the application means you accept these terms.</p>
+
+  <h3>2. Access and minimum age</h3>
+  <p>Tuilerie Mahjong is free and intended for a general audience. It is not designed for children, and its use is reserved for people aged <strong>13 or over</strong>. A minor under 18 must obtain the consent of the person holding parental authority.</p>
+
+  <h3>3. What you may do</h3>
+  <p>We grant you a personal, non-exclusive and non-transferable right to use the application, for your own entertainment, on devices you own or control.</p>
+
+  <h3>4. What you may not do</h3>
+  <ul>
+    <li>decompile, disassemble or attempt to extract the application's source code, except to the extent permitted by law;</li>
+    <li>modify the application, or distribute a modified version of it;</li>
+    <li>resell, rent or redistribute it outside the official app stores;</li>
+    <li>use automated or circumventing means to alter progress, the stock of hints or unlockable content.</li>
+  </ul>
+
+  <h3>5. Hints and tile sets</h3>
+  <ul>
+    <li><strong>The stock of hints has no monetary value.</strong> It cannot be bought with real money, resold or exchanged, and gives no right to any refund or consideration outside the application.</li>
+    <li><strong>An ad is watched only if you decide to.</strong> Watching a rewarded ad refills the stock of hints; nothing in the game is held against you if you decline.</li>
+    <li><strong>What unlocks never changes the game.</strong> Tile sets are decorative: they alter neither the layouts, nor the rules, nor the solver.</li>
+    <li>Hints and tile sets are tied to the local data of your device. Their loss, whatever the cause, gives no right to compensation.</li>
+  </ul>
+
+  <h3>6. Your data is yours — and you are its sole keeper</h3>
+  <p>Fial Labs keeps no data of yours on any server, and the game's own code transmits none; what Google's ad service collects is described in the <a href="#privacy">privacy policy</a> above. One consequence follows, which we would rather state in plain words:</p>
+  <ul>
+    <li>uninstalling the application, or clearing its data, <strong>permanently deletes your progress, your statistics and your stock of hints</strong>;</li>
+    <li><strong>there is no way to carry them elsewhere and no way to recover them</strong>, neither for you nor for us.</li>
+  </ul>
+
+  <h3>7. The games</h3>
+  <p>Every game the app deals has been checked as winnable by its solver, on your device, before being given to you. This check is an aid, not a contractual guarantee: the game is provided as is.</p>
+
+  <h3>8. Advertising</h3>
+  <p>The application offers rewarded ads served by Google AdMob, only at your request, in the single place described in the privacy policy. No ad is forced. The availability of an ad depends on Google and on the network; when none is available, the button does not appear and nothing is taken from you.</p>
+
+  <h3>9. Availability, changes and discontinuation</h3>
+  <p>The application is provided as is, with no guarantee of uninterrupted availability or absence of defects. We may modify it, suspend its distribution or stop maintaining it at any time. A version already installed keeps working: it depends on no server to run, only the ads do.</p>
+
+  <h3>10. Intellectual property</h3>
+  <p>The application, its code, its drawings, its texts and the name Tuilerie Mahjong belong to Fial Labs and are protected by intellectual property law. These terms transfer no such right to you, beyond the right of use in article 3. The rules of mahjong solitaire themselves belong to no one.</p>
+
+  <h3>11. Liability</h3>
+  <p>To the extent permitted by law, we cannot be held liable for indirect damage resulting from the use of, or inability to use, the application, nor for the loss of local data.</p>
+  <p>Nothing in these terms limits the rights that French law grants to consumers, in particular the legal guarantee of conformity.</p>
+
+  <h3>12. Changes to the terms</h3>
+  <p>These terms may be modified. The date of the last update appears at the top of the document, and any modified version is published at this address. If you do not accept a modification, it is up to you to stop using the application and uninstall it.</p>
+
+  <h3>13. Governing law and jurisdiction</h3>
+  <p>These terms are governed by <strong>French law</strong>. Failing an amicable settlement, the French courts have jurisdiction. If you are a consumer residing in the European Union, you keep the benefit of the mandatory protective rules of the country of your habitual residence.</p>
+
+  <h3>14. Contact</h3>
+  <p><a href="mailto:fiallabs@gmail.com">fiallabs@gmail.com</a></p>
+</main>
+<footer>Tuilerie Mahjong — Fial Labs · <a href="fr.html" lang="fr">Version française</a></footer>
+<script src="https://cdn.jsdelivr.net/gh/FialLabs/editeur-legal@main/editeur-legal.js"></script>
+</body>
+</html>

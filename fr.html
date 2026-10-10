@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Confidentialité et conditions — Tuilerie Mahjong</title>
+<meta name="description" content="Politique de confidentialité et conditions d'utilisation de Tuilerie Mahjong, un jeu de Fial Labs.">
+<style>
+  /* La table de Tuilerie Mahjong, et une tuile posée dessus. Contrastes mesurés, pas estimés. */
+  :root {
+    --tapis: #2f4239;
+    --tapis-sombre: #22302a;
+    --tuile: #f3efe4;
+    --encre: #2b261c;        /* 13,1:1 sur la tuile */
+    --encre-sourde: #5a5243; /* 6,7:1 sur la tuile */
+    --enseigne: #1f5c43;     /* 6,8:1 sur la tuile */
+    --trait: #ddd6c4;
+    --clair: #e9e4d6;        /* 10,8:1 sur le tapis */
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    background: radial-gradient(ellipse at 50% 0%, var(--tapis) 0%, var(--tapis-sombre) 100%);
+    color: var(--encre);
+    min-height: 100vh;
+    padding: 40px 20px 60px;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    background: var(--tuile);
+    border-radius: 16px;
+    padding: 40px clamp(20px, 5vw, 48px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  }
+  h1 { color: var(--enseigne); font-size: 26px; line-height: 1.25; margin: 0 0 6px; }
+  .updated { color: var(--encre-sourde); font-size: 13px; margin: 0 0 12px; }
+  .langue { font-size: 14px; margin: 0 0 24px; color: var(--encre-sourde); }
+  nav { margin: 0 0 32px; font-size: 15px; }
+  nav a { margin-right: 18px; }
+  h2 { font-size: 20px; margin: 40px 0 6px; padding-top: 12px; border-top: 1px solid var(--trait); }
+  h3 { font-size: 17px; margin: 26px 0 8px; }
+  p, li { line-height: 1.6; font-size: 15px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--enseigne); }
+  code { font-size: 14px; }
+  .phrase { background: #eaf0ea; border-left: 3px solid var(--enseigne); padding: 14px 18px; border-radius: 8px; margin: 22px 0; }
+  .phrase p { margin: 0; }
+  #editeur-legal p { color: var(--encre-sourde); font-size: 14px; }
+  footer { text-align: center; color: var(--clair); font-size: 13px; margin-top: 28px; }
+  footer a { color: var(--clair); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Tuilerie Mahjong — confidentialité et conditions</h1>
+  <p class="updated">Dernière mise à jour : 10 octobre 2026</p>
+  <p class="langue"><a href="index.html" lang="en" hreflang="en">English version</a> — les deux versions disent la même chose ; la française a été écrite la première.</p>
+
+  <nav>
+    <a href="#confidentialite">Politique de confidentialité</a>
+    <a href="#conditions">Conditions d'utilisation</a>
+    <a href="#supprimer-vos-donnees">Supprimer vos données</a>
+  </nav>
+
+  <h2 id="confidentialite">Politique de confidentialité</h2>
+
+  <div class="phrase">
+    <p><strong>Tuilerie Mahjong ne vous demande rien, et nous ne gardons rien de vous.</strong>
+    Tout ce que le jeu retient reste sur votre téléphone. Une seule chose parle au réseau : la régie publicitaire de
+    Google, qui démarre avec le jeu et envoie à Google ce que mesure une régie — quatre types de données, nommés
+    plus bas. Aucune publicité n'est jamais montrée sans que vous l'ayez demandée.</p>
+  </div>
+
+  <h3>Qui publie Tuilerie Mahjong</h3>
+  <p>Tuilerie Mahjong est développé par <strong>Fial Labs</strong>. Pour toute question sur cette politique, ou pour exercer vos droits : <a href="mailto:fiallabs@gmail.com">fiallabs@gmail.com</a></p>
+
+  <h3>Ce que Tuilerie Mahjong collecte</h3>
+  <p><strong>Fial Labs ne collecte rien.</strong> Le jeu ne demande ni compte, ni nom, ni adresse électronique, ni numéro de téléphone. Il ne demande ni votre position, ni vos contacts, ni vos photos, ni votre microphone, ni votre appareil photo, et nous n'y avons installé aucun outil de mesure d'audience, aucun rapporteur de plantage et aucun code de pistage qui nous soit propre.</p>
+  <p><strong>La régie publicitaire de Google, que le jeu embarque, collecte en revanche des données.</strong> Elle démarre au lancement du jeu, que vous regardiez une publicité ou non, et c'est la seule bibliothèque tierce de l'application. C'est à cause d'elle que la fiche Google Play déclare quatre types de données collectées et partagées. Les voici, sous les noms qu'emploie Play :</p>
+  <ul>
+    <li><strong>Identifiants de l'appareil ou autres identifiants</strong> — l'identifiant publicitaire de votre appareil et son App Set ID ;</li>
+    <li><strong>Position approximative</strong> — déduite de votre adresse IP, pas du GPS. Le jeu ne demande jamais l'autorisation de localisation d'Android et ne lit jamais votre position ; Google déduit une région de l'adresse réseau que porte toute connexion ;</li>
+    <li><strong>Interactions avec l'application</strong> — le lancement du jeu, vos appuis, et la lecture des vidéos publicitaires ;</li>
+    <li><strong>Diagnostics</strong> — temps de lancement, blocages, consommation d'énergie.</li>
+  </ul>
+  <p>Ces quatre types partent chez Google et chez personne d'autre, pour la publicité, la mesure, la prévention de la fraude et la sécurité. <strong>Ils circulent chiffrés (TLS).</strong> Ils ne sont pas facultatifs à l'intérieur du jeu : la régie démarre avec lui, et le seul moyen de les limiter passe par les réglages publicitaires de votre appareil, décrits plus bas. Google les conserve selon sa propre politique ; <strong>nous ne les voyons jamais et n'en recevons aucune copie.</strong></p>
+
+  <h3>Ce que Tuilerie Mahjong garde sur votre appareil</h3>
+  <p>Tout est gardé localement, dans le stockage privé de l'application, et n'est jamais transmis nulle part :</p>
+  <ul>
+    <li><strong>vos réglages</strong> — l'éclairage des tuiles libres, et la disposition proposée pour un nouveau plateau. Le jeu écrit aussi, à leur valeur de départ, quatre réglages prévus mais pas encore proposés à l'écran : la langue, la main, le son et les vibrations ;</li>
+    <li><strong>votre stock d'indices</strong> ;</li>
+    <li><strong>vos statistiques</strong> — parties gagnées, résolues par le solveur ou abandonnées, meilleur temps par disposition, et le corps de tuiles choisi (les corps se débloquent au fil des parties gagnées), ainsi que deux compteurs du plateau du jour, prévus mais pas encore utilisés ;</li>
+    <li><strong>la partie en cours</strong> — son numéro (qui porte sa disposition), les coups joués et leur ordre, le temps écoulé, les indices utilisés et les remélanges.</li>
+  </ul>
+  <p>Tout cela disparaît entièrement si vous désinstallez l'application ou effacez ses données depuis les réglages d'Android. <strong>Nous n'en détenons aucune copie</strong>, et nous ne pouvons pas le restaurer.</p>
+
+  <h3>Il n'y a pas de code de reprise</h3>
+  <p>Disons-le clairement, parce que c'est une limite et non une qualité : <strong>Tuilerie Mahjong n'offre aucun moyen de transporter votre progression sur un autre appareil.</strong> Elle vit sur ce téléphone et nulle part ailleurs. Si vous changez d'appareil ou effacez les données de l'application, elle est perdue, et nous ne pouvons rien y faire puisque nous n'en avons jamais eu copie.</p>
+
+  <h3>Le solveur</h3>
+  <p>Le jeu vérifie qu'une partie peut être gagnée, propose des indices et sait montrer une solution. <strong>Tout cela est calculé sur votre téléphone.</strong> Aucune position, aucun coup et aucun numéro de partie n'est jamais envoyé à un serveur : il n'y a pas de serveur.</p>
+
+  <h3>La publicité</h3>
+  <p><strong>Tuilerie Mahjong ne vous impose jamais une publicité.</strong> Aucune publicité n'apparaît entre deux parties, au lancement, ni à aucun moment que vous n'auriez pas choisi. Il n'y a aucun interstitiel — une vérification automatique refuse la construction de l'application si un interstitiel y est appelé. Le jeu propose des publicités <em>récompensées</em> à un seul endroit, et toujours à votre demande : le bouton <strong>« Recharger »</strong>, qui remplit votre stock d'indices. Ce bouton n'existe à l'écran que si une publicité est effectivement chargée et que votre stock est sous son plafond ; sinon il n'apparaît pas, plutôt que de vous promettre ce qui n'est pas disponible. Le stock se remplit aussi en gagnant des parties, sans aucune publicité.</p>
+  <p>Ces publicités sont servies par <strong>Google AdMob</strong>. Nous préférons le dire précisément : <strong>la régie démarre au lancement du jeu</strong>, recueille votre consentement là où il est requis, puis précharge une publicité pour qu'elle soit prête si vous la demandez. Ce préchargement contacte Google dès le lancement, même si vous ne regardez jamais de publicité. À cette occasion, et à chaque lecture d'une publicité, AdMob collecte les quatre types de données listés plus haut — identifiants, position approximative tirée de l'adresse IP, interactions, diagnostics — ainsi que des détails techniques comme le type d'appareil et la version d'Android, pour choisir et mesurer les publicités montrées. Tout est envoyé sur une connexion chiffrée (TLS) et traité par Google selon sa propre politique de confidentialité : <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>. Nous n'y avons aucun accès et n'en recevons aucune copie.</p>
+
+  <h3>Votre consentement et vos préférences publicitaires</h3>
+  <p>Si vous vivez dans l'Union européenne, au Royaume-Uni ou en Suisse, un formulaire de consentement vous est présenté au premier lancement, avant toute publicité. Il comporte un bouton <strong>« Refuser »</strong> aussi visible que le bouton d'acceptation. Là où ce choix vous est demandé, l'entrée <strong>« Confidentialité des annonces »</strong> apparaît dans le menu du jeu et permet de le changer à tout moment.</p>
+  <p>Sur n'importe quel appareil Android, vous pouvez aussi réinitialiser ou supprimer votre identifiant publicitaire, ou refuser la publicité personnalisée, depuis les réglages de l'appareil (Paramètres › Google › Annonces).</p>
+
+  <h3>Les autorisations Android</h3>
+  <p>Le jeu déclare pour son propre compte une seule autorisation :</p>
+  <ul>
+    <li><code>INTERNET</code> — pour la régie publicitaire : précharger une publicité, et la montrer quand vous la demandez. Rien d'autre dans le jeu n'utilise le réseau.</li>
+  </ul>
+  <p>La bibliothèque AdMob en apporte d'autres, que nous préférons nommer plutôt que cacher : <code>ACCESS_NETWORK_STATE</code> (le réseau est-il disponible), <code>AD_ID</code> et <code>ACCESS_ADSERVICES_*</code> (l'identifiant publicitaire et les services publicitaires d'Android), <code>WAKE_LOCK</code> et <code>FOREGROUND_SERVICE</code> (utilisées par Google pendant la lecture d'une publicité). Aucune de ces autorisations n'est classée « dangereuse » par Android : elles ne donnent accès ni à vos fichiers, ni à vos contacts, ni à la position de votre appareil. La position approximative que Google enregistre vient de votre adresse IP, pas de l'une d'elles. S'y ajoute une autorisation interne à l'application, <code>com.fiallabs.mahjong.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code>, posée par la bibliothèque Android androidx pour que ses messages internes ne sortent pas de l'application.</p>
+
+  <h3>Ce qui peut être acheté dans le jeu</h3>
+  <p><strong>Rien. Aucun achat en argent réel, aucun paiement, aucune donnée bancaire.</strong> Le stock d'indices se remplit en gagnant des parties, ou par une publicité si vous le choisissez. Les corps de tuiles se débloquent en gagnant des parties, jamais par une publicité ni par un paiement.</p>
+
+  <h3>Les enfants</h3>
+  <p>Tuilerie Mahjong s'adresse au grand public et n'est pas conçu pour les enfants de moins de 13 ans. L'application n'est pas inscrite au programme « Conçu pour les familles » de Google Play. Nous ne collectons nous-mêmes aucune donnée, ni sur les enfants ni sur personne. Ce que collecte la régie de Google, listé plus haut, s'applique à tous les joueurs de la même façon ; c'est une raison de plus pour que le jeu soit réservé aux personnes de 13 ans ou plus.</p>
+
+  <h3>Vos droits</h3>
+  <p>Le Règlement général européen sur la protection des données vous donne des droits d'accès, de rectification, d'effacement et d'opposition sur les données personnelles qui vous concernent.</p>
+  <p><strong>Nous ne détenons aucune donnée personnelle vous concernant</strong>, il n'y a donc rien à consulter, corriger ou effacer de notre côté. Les informations du jeu sont sur votre appareil, sous votre seul contrôle. Pour les données traitées par Google à des fins publicitaires, les demandes se font directement auprès de Google, par <a href="https://myaccount.google.com" target="_blank" rel="noopener">myaccount.google.com</a>. La marche à suivre est détaillée dans <a href="#supprimer-vos-donnees">Supprimer vos données</a>, ci-dessous.</p>
+  <p>Vous pouvez toujours nous écrire à <a href="mailto:fiallabs@gmail.com">fiallabs@gmail.com</a> pour toute question, et vous avez le droit d'introduire une réclamation auprès de votre autorité de protection des données (en France, la CNIL).</p>
+
+  <h3>Transferts hors de l'Union européenne</h3>
+  <p>Notre propre code ne transmet rien. Les données collectées par Google AdMob peuvent être traitées hors de l'Union européenne, dans les conditions décrites par la politique de confidentialité de Google.</p>
+
+  <h3 id="supprimer-vos-donnees">Supprimer vos données</h3>
+  <p>C'est la section vers laquelle Google Play renvoie sous « supprimer les données ». Elle nomme chaque donnée qui existe, où elle vit, comment l'effacer, et ce qui reste ensuite.</p>
+  <p><strong>1. Ce qui est sur votre appareil</strong> — vos réglages, votre stock d'indices, vos statistiques et la partie en cours. Pour tout effacer : désinstallez l'application, ou ouvrez les Paramètres d'Android › Applications › Tuilerie Mahjong › Stockage et choisissez « Effacer le stockage ». <strong>Tout est supprimé d'un coup, et rien n'en est conservé ailleurs :</strong> il n'y a ni serveur ni copie chez Fial Labs. Nous ne pouvons pas le restaurer.</p>
+  <p><strong>2. Ce que détient la régie de Google</strong> — les quatre types listés plus haut (identifiants, position approximative, interactions, diagnostics). Nous n'en détenons rien et ne pouvons pas les supprimer à votre place ; Google le peut. Sur votre appareil, Paramètres › Google › Annonces permet de <strong>supprimer votre identifiant publicitaire</strong>, après quoi les applications ne le reçoivent plus, ou de le réinitialiser, après quoi ce qui a été collecté avant n'est plus rattaché au nouveau. Pour les données que Google conserve selon sa propre politique, passez par ses outils sur <a href="https://myaccount.google.com" target="_blank" rel="noopener">myaccount.google.com</a>, ou écrivez à Google comme l'indique sa <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">politique de confidentialité</a>.</p>
+  <p><strong>3. Ce que garde Fial Labs</strong> — rien. Il n'y a aucun compte à fermer et aucun enregistrement à effacer chez nous, donc rien que vous ayez besoin de nous demander de supprimer. Si vous écrivez à <a href="mailto:fiallabs@gmail.com">fiallabs@gmail.com</a> pour le demander, nous vous le confirmerons par écrit.</p>
+
+  <h3>Modifications</h3>
+  <p>Cette politique peut changer. La date de dernière mise à jour figure en haut de ce document, et toute modification sera publiée à cette même adresse avant de prendre effet dans l'application.</p>
+
+  <h2 id="conditions">Conditions d'utilisation</h2>
+
+  <div id="editeur-legal"></div>
+
+  <h3>1. Objet</h3>
+  <p>Les présentes conditions régissent l'utilisation de l'application mobile Tuilerie Mahjong, éditée par Fial Labs. Installer ou utiliser l'application vaut acceptation de ces conditions.</p>
+
+  <h3>2. Accès et âge minimum</h3>
+  <p>Tuilerie Mahjong est gratuit et s'adresse au grand public. Il n'est pas conçu pour les enfants, et son usage est réservé aux personnes de <strong>13 ans ou plus</strong>. Un mineur de moins de 18 ans doit obtenir l'accord du titulaire de l'autorité parentale.</p>
+
+  <h3>3. Ce que vous pouvez faire</h3>
+  <p>Nous vous accordons un droit d'usage personnel, non exclusif et non transférable de l'application, pour votre propre divertissement, sur les appareils que vous possédez ou contrôlez.</p>
+
+  <h3>4. Ce que vous ne pouvez pas faire</h3>
+  <ul>
+    <li>décompiler, désassembler ou tenter d'extraire le code source de l'application, sauf dans la mesure permise par la loi ;</li>
+    <li>modifier l'application, ou en distribuer une version modifiée ;</li>
+    <li>la revendre, la louer ou la redistribuer en dehors des magasins d'applications officiels ;</li>
+    <li>employer des moyens automatisés ou de contournement pour altérer la progression, le stock d'indices ou les contenus à débloquer.</li>
+  </ul>
+
+  <h3>5. Les indices et les tuiles</h3>
+  <ul>
+    <li><strong>Le stock d'indices n'a aucune valeur monétaire.</strong> Il ne peut être acheté en argent réel, revendu ni échangé, et n'ouvre droit à aucun remboursement ni contrepartie hors de l'application.</li>
+    <li><strong>Une publicité n'est regardée que si vous le décidez.</strong> Regarder une publicité récompensée remplit le stock d'indices ; rien dans le jeu ne vous est retenu si vous refusez.</li>
+    <li><strong>Ce qui se débloque ne change jamais le jeu.</strong> Les corps de tuiles sont décoratifs : ils ne modifient ni les dispositions, ni les règles, ni le solveur.</li>
+    <li>Les indices et les tuiles sont liés aux données locales de votre appareil. Leur perte, quelle qu'en soit la cause, n'ouvre droit à aucune compensation.</li>
+  </ul>
+
+  <h3>6. Vos données sont à vous — et vous en êtes le seul gardien</h3>
+  <p>Fial Labs ne conserve aucune de vos données sur un serveur, et le code du jeu n'en transmet aucune ; ce que collecte la régie de Google est décrit dans la <a href="#confidentialite">politique de confidentialité</a> ci-dessus. Il en découle une conséquence que nous préférons énoncer en clair :</p>
+  <ul>
+    <li>désinstaller l'application, ou effacer ses données, <strong>supprime définitivement votre progression, vos statistiques et votre stock d'indices</strong> ;</li>
+    <li><strong>il n'existe aucun moyen de les transporter ailleurs ni de les récupérer</strong>, ni pour vous ni pour nous.</li>
+  </ul>
+
+  <h3>7. Les parties</h3>
+  <p>Chaque partie proposée par le jeu a été vérifiée comme gagnable par son solveur, sur votre appareil, avant de vous être distribuée. Cette vérification est une aide, pas une garantie contractuelle : le jeu est fourni en l'état.</p>
+
+  <h3>8. La publicité</h3>
+  <p>L'application propose des publicités récompensées servies par Google AdMob, uniquement à votre demande, au seul endroit décrit dans la politique de confidentialité. Aucune publicité n'est imposée. La disponibilité d'une publicité dépend de Google et du réseau ; lorsqu'aucune n'est disponible, le bouton n'apparaît pas et rien ne vous est retiré.</p>
+
+  <h3>9. Disponibilité, évolutions et arrêt</h3>
+  <p>L'application est fournie en l'état, sans garantie de disponibilité ininterrompue ni d'absence de défaut. Nous pouvons la modifier, en suspendre la distribution ou cesser de la maintenir à tout moment. Une version déjà installée continue de fonctionner : elle ne dépend d'aucun serveur pour tourner, seules les publicités en dépendent.</p>
+
+  <h3>10. Propriété intellectuelle</h3>
+  <p>L'application, son code, ses dessins, ses textes et le nom Tuilerie Mahjong appartiennent à Fial Labs et sont protégés par le droit de la propriété intellectuelle. Les présentes conditions ne vous transfèrent aucun de ces droits, au-delà du droit d'usage de l'article 3. Les règles du mahjong solitaire elles-mêmes n'appartiennent à personne.</p>
+
+  <h3>11. Responsabilité</h3>
+  <p>Dans la limite permise par la loi, nous ne pouvons être tenus responsables des dommages indirects résultant de l'usage ou de l'impossibilité d'usage de l'application, ni de la perte des données locales.</p>
+  <p>Rien dans ces conditions ne limite les droits que la loi française accorde aux consommateurs, en particulier la garantie légale de conformité.</p>
+
+  <h3>12. Modification des conditions</h3>
+  <p>Ces conditions peuvent être modifiées. La date de dernière mise à jour figure en haut du document, et toute version modifiée est publiée à cette adresse. Si vous n'acceptez pas une modification, il vous appartient de cesser d'utiliser l'application et de la désinstaller.</p>
+
+  <h3>13. Droit applicable et juridiction</h3>
+  <p>Les présentes conditions sont régies par le <strong>droit français</strong>. À défaut de règlement amiable, les tribunaux français sont compétents. Si vous êtes un consommateur résidant dans l'Union européenne, vous conservez le bénéfice des règles protectrices impératives du pays de votre résidence habituelle.</p>
+
+  <h3>14. Contact</h3>
+  <p><a href="mailto:fiallabs@gmail.com">fiallabs@gmail.com</a></p>
+</main>
+<footer>Tuilerie Mahjong — Fial Labs · <a href="index.html" lang="en">English version</a></footer>
+<script src="https://cdn.jsdelivr.net/gh/FialLabs/editeur-legal@main/editeur-legal.js"></script>
+</body>
+</html>
